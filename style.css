@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  background-color: white;
+  width: 500px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header .header__icon {
+  display: flex;
+  align-items: center;
+}
+.header .header__icon--html5 {
+  margin: 0px 10px;
+}
+.header .header__icon--rigo {
+  margin: 0px 10px;
+}
+.header .header__icon--rigo p {
+  margin: 0px;
+  font-size: 0.8;
+  color: black;
+  text-align: left;
+}
+.header .header__icon--rigo p:nth-child(1) {
+  font-weight: bold;
+  padding: 3px;
+}
+.header .header__icon--rigo p:nth-child(2) {
+  padding: 3px;
+  font-size: 0.9rem;
+}
+.header .header__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 15px;
+}
+.article {
+  height: 350px;
+  background-image: url("https://picsum.photos/500/300");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.footer__header .footer__header--icon {
+  display: flex;
+}
+.footer__header .footer__header--icon div {
+  margin: 0px 5px;
+  font-size: 0.8rem;
+}
+.footer__header .footer__header--bookmark {
+  font-size: 0.8rem;
+}
+.footer__paragrapth {
+  padding: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.9rem;
+}
